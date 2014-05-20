@@ -31,12 +31,13 @@ On MacOS you can do like this::
     * xelatex: http://tug.org/mactex/
 4. `$ makeebooks zh` #will produce a mobi
 
-To create a PDF on Ubuntu:
+To create a PDF on Ubuntu::
+
 1. INSTALL ruby
-2. '$ gem install rdiscount'
-3. '$ sudo apt-get install pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended'
-4. Edit latex/config.yml and set 'font: Ubuntu' and 'mono: DejaVu Sans Mono'
-5. '$ ./makepdfs en' 
+2. `$ gem install rdiscount`
+3. `$ sudo apt-get install pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended`
+4. Edit latex/config.yml and set 'font: Ubuntu' and 'mono: DejaVu Sans Mono
+5. `$ ./makepdfs en`
 
 ## Notes on pandoc
 
