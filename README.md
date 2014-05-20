@@ -31,6 +31,13 @@ On MacOS you can do like this::
     * xelatex: http://tug.org/mactex/
 4. `$ makeebooks zh` #will produce a mobi
 
+To create a PDF on Ubuntu:
+1. INSTALL ruby
+2. '$ gem install rdiscount'
+3. '$ sudo apt-get install pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended'
+4. Edit latex/config.yml and set 'font: Ubuntu' and 'mono: DejaVu Sans Mono'
+5. '$ ./makepdfs en' 
+
 ## Notes on pandoc
 
 Please use Pandoc version 1.11.1 or later as older versions(confirmed on 1.9.1.1) has a [bug](https://github.com/jgm/pandoc/issues/964) which hides a word after tilde `~`.  You can do `pandoc -v` to see which version you have installed.
